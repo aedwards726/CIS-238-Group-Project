@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<!-- 
+
+CIS 238 Group 3 Project
+Name:Audrey Edwards
+File Name: index.html
+
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>6 Teas - Steeped in Tradition</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+	<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="manifest" href="/site.webmanifest"
+	<link rel="android-icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="6 Teas Logo" height="100" width="100">
+        <h1>6 Teas Company</h1>
+    </header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="shop.html">Online Shop</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+		</ul>
+	</nav>
+
+
+    <div>
+        <img src="images/Hero-Image20250227193536.jpg" alt="Hero Image" width="100%">
+    </div>
+
+    <main>
+        <p>Welcome to 6 Teas, where we bring the finest tea traditions to your cup. Explore our selection of teas, learn about our sourcing process, and shop for your favorite blends.</p>
+
+        <p>Steeped in tradition, crafted for you.</p>
+		
+		<h2>Featured Teas</h2>
+		
+		<div class="grid">
+		
+			<figure class="frame">
+				<a href="shop.html"><img src="images/herbal-tea.jpg" alt="herbal tea grounds and leaves"></a>
+				<figcaption class="pic-text">Herbal Tea</figcaption>
+			</figure>
+			
+			<figure class="frame">
+				<a href="shop.html"><img src="images/black-tea.jpg" alt="black tea grounds and leaves"></a>
+				<figcaption class="pic-text">Black Tea</figcaption>
+			</figure>
+			
+			<figure class="frame">
+				<a href= "shop.html"><img src="images/green-tea.jpg" alt="green tea grounds and leaves"></a>
+				<figcaption class="pic-text">Green Tea</figcaption>
+			</figure>
+		
+		</div>
+		
+		<div class="shop-button-container">
+			<a href="shop.html" class="shop-button">Shop All Teas</a>
+		</div>
+		
+		<section id="testimonials">
+			<h2>What Our Customers Are Saying</h2>
+			<div class="testimonial">
+				<p>"The best tea I've ever had! The flavors are so unique, and I feel so refreshed after each cup!" - Sarah L.</p>
+			</div>
+			<div class="testimonial">
+				<p>"6 Teas offers a fantastic variety. I love how much I learn about the sourcing and history behind each tea!" - John P.</p>
+			</div>
+		</section>
+		
+		<h2>Make tea your everyday luxury.</h2>
+
+		<p>Since our founding, we have always aimed to provide a great quality product at a reasonable price. </p>
+		<p> We want to make shopping and exploring tea an enjoyable experience and that's why we offer free shipping orders over $59 with a quality guarantee.</p>
+		
+    </main>
+
+    <footer>
+        <p>Contact us: <a href="mailto:info@6teas.com">Email</a> | <a href="tel:+123456789">Phone</a> | <a href="#">Social Media</a></p>
+    </footer>
+
+</body>
+</html>
